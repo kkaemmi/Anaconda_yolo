@@ -1,0 +1,30 @@
+python -m pip install opencv-python
+
+1. 새파일 만들기
+
+2. git clone https://github.com/pjreddie/darknet 
+   - 파일 가져오기
+   - 새파일에 넣기
+ 
+3. weights 폴더 만들어서 darknet-master에 넣기
+   - https://pjreddie.com/media/files/yolov3.weights 자동다운
+   - 다운받은 파일 weights에 넣기
+
+4. darknet-master 파일에 넣기
+yolov3.py
+convert_weights.py
+utils.py
+image.py
+video.py
+
+5. runfile('C:/자기폴더/파일이름.py/', wdir='C:/자기폴더/darknet-master/')
+   - 순서대로 설치
+   - 1. yolov3.py
+   - 2. convert_weights.py
+   - 3. utils.py
+   - 4. image.py
+     image.py 하기전에 image파일을 비주얼코드로 열어서 
+     img_path = "data/eagle.jpg" 로 바꿔서 저장
+   - 5. video.py
+     video.py 하기전에 video파일을 비주얼코드로 열어서 
+     cap = cv2.VideoCapture('data/video1.avi') 경로 설정 후 저장

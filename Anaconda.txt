@@ -1,0 +1,33 @@
+1. Anaconda 설치
+
+2. Anaconda prompt(관리자모드)
+
+3. conda create -n tensflow python=3.(6,7,8) 버전선택
+3-1. python -V
+
+4. conda activate tensflow
+
+5. conda update -n tensflow conda
+
+6. conda update --all
+
+7. conda install --ignore-installed --upgrade tensorflow-cpu
+   conda install --ignore-installed --upgrade tensorflow-gpu (글카 좋은사람)
+7-1. python
+>> import tensorflow as tf
+>> tf.__version__
+'0.0.0(버전)'
+>> exit()
+
+8. conda install opencv-python
+8-1. conda install opencv-contrib-python
+8-2. python
+>> import cv2
+0.0.0(버전)
+>>exit()
+
+9. conda install numpy
+
+10. conda install spyder 
+
+11. spyder (실행)
