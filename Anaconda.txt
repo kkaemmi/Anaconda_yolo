@@ -11,8 +11,8 @@
 
 6. conda update --all
 
-7. conda install --ignore-installed --upgrade tensorflow-cpu
-   conda install --ignore-installed --upgrade tensorflow-gpu (글카 좋은사람)
+7. pip install --ignore-installed --upgrade tensorflow-cpu
+   pip install --ignore-installed --upgrade tensorflow-gpu (글카 좋은사람)
 7-1. python
 >> import tensorflow as tf
 >> tf.__version__
